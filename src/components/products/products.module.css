@@ -1,0 +1,25 @@
+._header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+._list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+._item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #393939;
+}
+
+._info {
+  display: flex;
+  flex-direction: column;
+}

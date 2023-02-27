@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #242424;
+  color: white;
+}
+
+.App {
+  display: flex;
+}
+
+button {
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: 0.1s;
+  width: fit-content;
+}
+
+button:hover {
+  opacity: 0.87;
+}
+
+.sidebar {
+  background-color: #393939;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar .container {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 70px;
+  height: calc(100% - 70px);
+}
+
+.logo {
+  color: #009688;
+}
+
+.nav {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav .active {
+  text-decoration: underline;
+}
+
+.main {
+  margin-left: 215px;
+  width: 100%;
+}
+
+.main .container {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
